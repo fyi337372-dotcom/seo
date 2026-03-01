@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>传奇sf_热血传奇sf_1.76复古传奇sf - 专业传奇sf发布网</title>
+    <meta name="description" content="传奇sf发布网提供最新热血传奇sf、1.76复古传奇sf、变态传奇sf版本下载。汇聚全网最火的传奇sf游戏，是玩家找sf的首选平台。">
+    <meta name="keywords" content="传奇sf,热血传奇sf,1.76复古传奇sf,变态传奇sf,传奇sf网站,sf传奇,传奇sf发布,新开传奇sf,最大传奇sf平台">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="传奇sf_热血传奇sf_1.76复古传奇sf">
+    <meta property="og:description" content="最新最全的传奇sf发布网">
+    
+    <link rel="canonical" href="https://yoursite.com/chuanqisf.html">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚔️</text></svg>">
+    
+    <style>
+        /* 复用 index.html 的样式 */
+        :root {
+            --primary-color: #e74c3c;
+            --secondary-color: #c0392b;
+            --dark-bg: #1a1a2e;
+            --card-bg: #16213e;
+            --text-light: #eee;
+            --text-muted: #aaa;
+            --accent-gold: #f1c40f;
+            --gradient-start: #e74c3c;
+            --gradient-end: #8e44ad;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+            background: linear-gradient(135deg, var(--dark-bg) 0%, #0f0f23 100%);
+            color: var(--text-light);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+            padding: 1.5rem 0;
+            box-shadow: 0 4px 20px rgba(231, 76, 60, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        .header-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        
+        .logo { font-size: 2rem; font-weight: bold; color: #fff; display: flex; align-items: center; gap: 0.5rem; }
+        .logo-icon { font-size: 2.5rem; }
+        
+        nav ul { display: flex; list-style: none; gap: 1.5rem; flex-wrap: wrap; }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover, nav a.active { background: rgba(255,255,255,0.2); }
+        
+        .hero {
+            padding: 3rem 0;
+            text-align: center;
+            background: linear-gradient(180deg, transparent, rgba(0,0,0,0.3));
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, var(--accent-gold), #fff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .page-content { padding: 2rem 0; }
+        
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: var(--primary-color);
+            margin: 0.5rem auto;
+            border-radius: 2px;
+        }
+        
+        .sf-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .sf-card {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .sf-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-color);
+            box-shadow: 0 10px 30px rgba(231, 76, 60, 0.2);
+        }
+        
+        .sf-card h3 { color: var(--accent-gold); font-size: 1.2rem; margin-bottom: 0.5rem; }
+        .sf-card p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem; }
+        .sf-card .tag { 
+            display: inline-block; 
+            background: var(--primary-color); 
+            color: #fff; 
+            padding: 0.3rem 0.8rem; 
+            border-radius: 15px; 
+            font-size: 0.8rem; 
+            margin-right: 0.5rem;
+        }
+        .sf-card .btn {
+            display: inline-block;
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+            color: #fff;
+            padding: 0.5rem 1.2rem;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            transition: transform 0.3s ease;
+        }
+        .sf-card .btn:hover { transform: scale(1.05); }
+        
+        .tags-cloud { margin: 2rem 0; text-align: center; }
+        .tags-cloud a {
+            display: inline-block;
+            background: var(--card-bg);
+            color: var(--text-light);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            text-decoration: none;
+            margin: 0.3rem;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+        }
+        .tags-cloud a:hover { border-color: var(--primary-color); background: rgba(231,76,60,0.2); }
+        
+        footer {
+            background: #0a0a15;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 3rem;
+        }
+        footer p { color: var(--text-muted); font-size: 0.9rem; }
+        footer a { color: var(--primary-color); text-decoration: none; }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            .header-content { flex-direction: column; text-align: center; }
+        }
+        
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .sf-card { animation: fadeInUp 0.6s ease forwards; }
+        .sf-card:nth-child(1) { animation-delay: 0.1s; }
+        .sf-card:nth-child(2) { animation-delay: 0.15s; }
+        .sf-card:nth-child(3) { animation-delay: 0.2s; }
+        .sf-card:nth-child(4) { animation-delay: 0.25s; }
+        .sf-card:nth-child(5) { animation-delay: 0.3s; }
+        .sf-card:nth-child(6) { animation-delay: 0.35s; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">⚔️</span>
+                    <span>传奇sf发布网</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="chuanqisf.html" class="active">传奇sf</a></li>
+                        <li><a href="xinkaichuanqi.html">新开传奇</a></li>
+                        <li><a href="sifufabuwang.html">私服发布网</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>🔥 传奇sf - 最全的私服传奇</h1>
+            <p>精选热血传奇sf、1.76复古版、变态版，总有一款适合你</p>
+        </div>
+    </section>
+    
+    <section class="page-content">
+        <div class="container">
+            <h2 class="section-title">热门传奇sf</h2>
+            
+            <div class="sf-grid">
+                <div class="sf-card">
+                    <h3>🔥 1.76复古传奇sf</h3>
+                    <p>经典1.76版本，原汁原味，散人天堂，装备保值</p>
+                    <span class="tag">复古</span>
+                    <span class="tag">散人</span>
+                    <a href="#" class="btn">开始游戏</a>
+                </div>
+                
+                <div class="sf-card">
+                    <h3>⚡ 变态传奇sf</h3>
+                    <p>满级VIP，刀刀切割无限元宝，极品装备满地爆</p>
+                    <span class="tag">变态</span>
+                    <span class="tag">BT</span>
+                    <a href="#" class="btn">开始游戏</a>
+                </div>
+                
+                <div class="sf-card">
+                    <h3>🎮 轻变传奇sf</h3>
+                    <p>创新玩法，公平竞技，散人可玩，装备好打</p>
+                    <span class="tag">轻变</span>
+                    <span class="tag">公平</span>
+                    <a href="#" class="btn">开始游戏</a>
+                </div>
+                
+                <div class="sf-card">
+                    <h3>💎 中变传奇sf</h3>
+                    <p>平衡职业，经典地图，稳定长久，长期运营</p>
+                    <span class="tag">中变</span>
+                    <span class="tag">稳定</span>
+                    <a href="#" class="btn">开始游戏</a>
+                </div>
+                
+                <div class="sf-card">
+                    <h3>🌟 精品传奇sf</h3>
+                    <p>独家版本，特色玩法，万人在线人气爆棚</p>
+                    <span class="tag">独家</span>
+                    <span class="tag">人气</span>
+                    <a href="#" class="btn">开始游戏</a>
+                </div>
+                
+                <div class="sf-card">
+                    <h3>🏆 热血传奇sf</h3>
+                    <p>经典重现，热血战斗，沙城争霸，兄弟同心</p>
+                    <span class="tag">热血</span>
+                    <span class="tag">沙城</span>
+                    <a href="#" class="btn">开始游戏</a>
+                </div>
+            </div>
+            
+            <div class="tags-cloud">
+                <h3 style="margin-bottom:1rem;color:var(--text-muted);">相关搜索：</h3>
+                <a href="#">传奇sf</a>
+                <a href="#">热血传奇sf</a>
+                <a href="#">1.76复古传奇sf</a>
+                <a href="#">变态传奇sf</a>
+                <a href="#">sf传奇</a>
+                <a href="#">传奇sf网站</a>
+                <a href="#">新开传奇sf</a>
+                <a href="#">最大传奇sf</a>
+                <a href="#">传奇sf发布网</a>
+                <a href="#">sf发布站</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 传奇sf发布网 | 
+                <a href="index.html">首页</a> | 
+                <a href="chuanqisf.html">传奇sf</a> | 
+                <a href="xinkaichuanqi.html">新开传奇</a> | 
+                <a href="sifufabuwang.html">私服发布网</a>
+            </p>
+            <p style="margin-top:0.5rem;font-size:0.8rem;">关键词：传奇sf、热血传奇sf、1.76复古传奇sf、变态传奇sf</p>
+        </div>
+    </footer>
+</body>
+</html>
