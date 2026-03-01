@@ -24,6 +24,10 @@
         nav a { color: #fff; text-decoration: none; padding: 0.3rem 0.6rem; border-radius: 4px; font-size: 0.9rem; }
         .article-content { padding: 2rem 0; }
         .article-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .breadcrumb { margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--text-muted); }
+        .breadcrumb a { color: var(--primary-color); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb span { margin: 0 0.5rem; }
         .article-header h1 { font-size: 1.8rem; margin-bottom: 1rem; line-height: 1.4; }
         .article-header .meta { color: var(--text-muted); font-size: 0.9rem; display: flex; gap: 1.5rem; }
         .article-header .category { background: rgba(52, 152, 219, 0.2); color: var(--primary-color); padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem; }
@@ -63,6 +67,10 @@
     
     <section class="article-content">
         <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">首页</a><span>›</span><a href="../gonglue.html">游戏攻略</a><span>›</span>正文
+            </div>
+            
             <div class="article-header">
                 <span class="category">理财攻略</span>
                 <h1>游戏金币获取与理财技巧</h1>
