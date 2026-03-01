@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>游戏资讯_最新开服信息_游戏更新公告</title>
+    <meta name="description" content="提供最新的游戏开服信息、版本更新公告、活动资讯等，让玩家第一时间掌握游戏动态。">
+    <meta name="keywords" content="游戏资讯,开服信息,更新公告,活动资讯,游戏新闻">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="游戏资讯_最新动态">
+    <meta property="og:description" content="游戏资讯第一时间掌握">
+    
+    <link rel="canonical" href="https://yoursite.com/xinwen.html">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+    
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2980b9;
+            --dark-bg: #1a1a2e;
+            --card-bg: #16213e;
+            --text-light: #eee;
+            --text-muted: #aaa;
+            --accent-gold: #f1c40f;
+            --gradient-start: #3498db;
+            --gradient-end: #9b59b6;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+            background: linear-gradient(135deg, var(--dark-bg) 0%, #0f0f23 100%);
+            color: var(--text-light);
+            min-height: 100vh;
+            line-height: 1.7;
+        }
+        
+        header {
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+            padding: 1.2rem 0;
+            box-shadow: 0 4px 20px rgba(52, 152, 219, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        
+        .header-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        
+        .logo { font-size: 1.8rem; font-weight: bold; color: #fff; display: flex; align-items: center; gap: 0.5rem; }
+        .logo-icon { font-size: 2rem; }
+        
+        nav ul { display: flex; list-style: none; gap: 1.2rem; flex-wrap: wrap; }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.4rem 0.8rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover, nav a.active { background: rgba(255,255,255,0.2); }
+        
+        .hero {
+            padding: 2.5rem 0;
+            text-align: center;
+            background: linear-gradient(180deg, transparent, rgba(0,0,0,0.2));
+        }
+        
+        .hero h1 {
+            font-size: 2rem;
+            background: linear-gradient(90deg, var(--accent-gold), #fff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .page-content { padding: 2rem 0; }
+        
+        .section-title {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 1.8rem;
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: var(--primary-color);
+            margin: 0.5rem auto;
+            border-radius: 2px;
+        }
+        
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.2rem;
+        }
+        
+        .news-card {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .news-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--primary-color);
+        }
+        
+        .news-card .tag {
+            display: inline-block;
+            background: rgba(52, 152, 219, 0.2);
+            color: var(--primary-color);
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-bottom: 0.8rem;
+        }
+        
+        .news-card .tag.hot {
+            background: rgba(231, 76, 60, 0.2);
+            color: #e74c3c;
+        }
+        
+        .news-card h3 {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+        
+        .news-card p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 0.8rem;
+        }
+        
+        .news-card .meta {
+            color: #666;
+            font-size: 0.8rem;
+        }
+        
+        .banner {
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .banner h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .banner p {
+            opacity: 0.9;
+        }
+        
+        footer {
+            background: #0a0a15;
+            padding: 1.5rem 0;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        footer p { color: var(--text-muted); font-size: 0.85rem; }
+        footer a { color: var(--primary-color); text-decoration: none; }
+        
+        @media (max-width: 768px) {
+            .header-content { flex-direction: column; text-align: center; }
+        }
+        
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+        .news-card { animation: fadeInUp 0.5s ease forwards; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🎮</span>
+                    <span>传奇玩家社区</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="gonglue.html">游戏攻略</a></li>
+                        <li><a href="jiqiao.html">传奇技巧</a></li>
+                        <li><a href="xinwen.html" class="active">游戏资讯</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>📰 游戏资讯</h1>
+        </div>
+    </section>
+    
+    <section class="page-content">
+        <div class="container">
+            <div class="banner">
+                <h2>🎉 新年活动火热进行中</h2>
+                <p>参与活动有机会获得稀有道具和限定皮肤</p>
+            </div>
+            
+            <h2 class="section-title">最新资讯</h2>
+            
+            <div class="news-grid">
+                <div class="news-card">
+                    <span class="tag hot">热门</span>
+                    <h3>新版本即将上线 玩法全面升级</h3>
+                    <p>全新版本带来更多精彩内容，详见更新公告</p>
+                    <div class="meta">2024-01-15</div>
+                </div>
+                
+                <div class="news-card">
+                    <span class="tag">开服</span>
+                    <h3>新服火热开启 限时预约中</h3>
+                    <p>新服预约现已开放，预约可享专属礼包</p>
+                    <div class="meta">2024-01-14</div>
+                </div>
+                
+                <div class="news-card">
+                    <span class="tag">活动</span>
+                    <h3>周末双倍经验活动开启</h3>
+                    <p>周末期间全服享受双倍经验加成</p>
+                    <div class="meta">2024-01-13</div>
+                </div>
+                
+                <div class="news-card">
+                    <span class="tag">更新</span>
+                    <h3>装备系统优化 属性提升</h3>
+                    <p>装备强化成功率提升，新增属性继承功能</p>
+                    <div class="meta">2024-01-12</div>
+                </div>
+                
+                <div class="news-card">
+                    <span class="tag">公告</span>
+                    <h3>维护更新通知</h3>
+                    <p>服务器将于本周三进行例行维护</p>
+                    <div class="meta">2024-01-11</div>
+                </div>
+                
+                <div class="news-card">
+                    <span class="tag">赛事</span>
+                    <h3>跨服争霸赛火热报名中</h3>
+                    <p>最强公会争夺丰厚奖励，万元奖金等你来战</p>
+                    <div class="meta">2024-01-10</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 传奇玩家社区 | 
+                <a href="index.html">首页</a> | 
+                <a href="gonglue.html">游戏攻略</a> | 
+                <a href="jiqiao.html">传奇技巧</a> | 
+                <a href="xinwen.html">游戏资讯</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

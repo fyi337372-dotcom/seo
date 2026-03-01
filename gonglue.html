@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>游戏攻略_传奇升级攻略_副本通关技巧</title>
+    <meta name="description" content="提供全面的游戏攻略，包括升级技巧、副本通关、Boss打法等实用内容，帮助玩家快速成长。">
+    <meta name="keywords" content="游戏攻略,升级攻略,副本通关,Boss打法,传奇攻略">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="游戏攻略_升级技巧">
+    <meta property="og:description" content="最全的游戏攻略分享">
+    
+    <link rel="canonical" href="https://yoursite.com/gonglue.html">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+    
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2980b9;
+            --dark-bg: #1a1a2e;
+            --card-bg: #16213e;
+            --text-light: #eee;
+            --text-muted: #aaa;
+            --accent-gold: #f1c40f;
+            --gradient-start: #3498db;
+            --gradient-end: #9b59b6;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+            background: linear-gradient(135deg, var(--dark-bg) 0%, #0f0f23 100%);
+            color: var(--text-light);
+            min-height: 100vh;
+            line-height: 1.7;
+        }
+        
+        header {
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+            padding: 1.2rem 0;
+            box-shadow: 0 4px 20px rgba(52, 152, 219, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        
+        .header-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        
+        .logo { font-size: 1.8rem; font-weight: bold; color: #fff; display: flex; align-items: center; gap: 0.5rem; }
+        .logo-icon { font-size: 2rem; }
+        
+        nav ul { display: flex; list-style: none; gap: 1.2rem; flex-wrap: wrap; }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.4rem 0.8rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        nav a:hover, nav a.active { background: rgba(255,255,255,0.2); }
+        
+        .hero {
+            padding: 2.5rem 0;
+            text-align: center;
+            background: linear-gradient(180deg, transparent, rgba(0,0,0,0.2));
+        }
+        
+        .hero h1 {
+            font-size: 2rem;
+            background: linear-gradient(90deg, var(--accent-gold), #fff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .page-content { padding: 2rem 0; }
+        
+        .section-title {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 1.8rem;
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: var(--primary-color);
+            margin: 0.5rem auto;
+            border-radius: 2px;
+        }
+        
+        .article-list { display: flex; flex-direction: column; gap: 1rem; max-width: 800px; margin: 0 auto; }
+        
+        .article-item {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .article-item:hover {
+            border-color: var(--primary-color);
+            transform: translateX(5px);
+        }
+        
+        .article-item h3 {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .article-item p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 0.8rem;
+        }
+        
+        .article-item .meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #666;
+            font-size: 0.8rem;
+        }
+        
+        .article-item .category {
+            background: rgba(52, 152, 219, 0.2);
+            color: var(--primary-color);
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+        }
+        
+        .article-item .btn {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .tags { margin: 1.5rem 0; text-align: center; }
+        .tags a {
+            display: inline-block;
+            background: var(--card-bg);
+            color: var(--text-muted);
+            padding: 0.4rem 0.8rem;
+            border-radius: 15px;
+            text-decoration: none;
+            margin: 0.2rem;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+        }
+        .tags a:hover { background: rgba(52,152,219,0.3); color: #fff; }
+        
+        footer {
+            background: #0a0a15;
+            padding: 1.5rem 0;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        footer p { color: var(--text-muted); font-size: 0.85rem; }
+        footer a { color: var(--primary-color); text-decoration: none; }
+        
+        @media (max-width: 768px) {
+            .header-content { flex-direction: column; text-align: center; }
+        }
+        
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+        .article-item { animation: fadeInUp 0.5s ease forwards; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🎮</span>
+                    <span>传奇玩家社区</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="gonglue.html" class="active">游戏攻略</a></li>
+                        <li><a href="jiqiao.html">传奇技巧</a></li>
+                        <li><a href="xinwen.html">游戏资讯</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>📖 游戏攻略</h1>
+        </div>
+    </section>
+    
+    <section class="page-content">
+        <div class="container">
+            <h2 class="section-title">攻略文章</h2>
+            
+            <div class="article-list">
+                <div class="article-item">
+                    <span class="category">升级攻略</span>
+                    <h3>1-80级快速升级路线指南</h3>
+                    <p>详细的升级路线规划，让升级效率翻倍</p>
+                    <div class="meta">
+                        <span>2024-01-15</span>
+                        <a href="#" class="btn">阅读全文 →</a>
+                    </div>
+                </div>
+                
+                <div class="article-item">
+                    <span class="category">副本攻略</span>
+                    <h3>各大副本机制分析与通关要点</h3>
+                    <p>深入解析副本机制，提供最优通关方案</p>
+                    <div class="meta">
+                        <span>2024-01-14</span>
+                        <a href="#" class="btn">阅读全文 →</a>
+                    </div>
+                </div>
+                
+                <div class="article-item">
+                    <span class="category">Boss攻略</span>
+                    <h3>世界Boss刷新时间与击杀技巧</h3>
+                    <p>掌握Boss刷新规律，优先击杀获得稀有装备</p>
+                    <div class="meta">
+                        <span>2024-01-13</span>
+                        <a href="#" class="btn">阅读全文 →</a>
+                    </div>
+                </div>
+                
+                <div class="article-item">
+                    <span class="category">任务攻略</span>
+                    <h3>主线任务与支线任务最佳顺序</h3>
+                    <p>合理规划任务顺序，经验收益最大化</p>
+                    <div class="meta">
+                        <span>2024-01-12</span>
+                        <a href="#" class="btn">阅读全文 →</a>
+                    </div>
+                </div>
+                
+                <div class="article-item">
+                    <span class="category">装备攻略</span>
+                    <h3>各等级段装备获取途径汇总</h3>
+                    <p>不同等级段玩家的装备获取路线推荐</p>
+                    <div class="meta">
+                        <span>2024-01-11</span>
+                        <a href="#" class="btn">阅读全文 →</a>
+                    </div>
+                </div>
+                
+                <div class="article-item">
+                    <span class="category">PK攻略</span>
+                    <h3>三大职业对战思路与技巧</h3>
+                    <p>了解各职业特点，在PK中取得优势</p>
+                    <div class="meta">
+                        <span>2024-01-10</span>
+                        <a href="#" class="btn">阅读全文 →</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tags">
+                <a href="#">升级攻略</a>
+                <a href="#">副本攻略</a>
+                <a href="#">Boss攻略</a>
+                <a href="#">任务攻略</a>
+                <a href="#">装备攻略</a>
+                <a href="#">PK攻略</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 传奇玩家社区 | 
+                <a href="index.html">首页</a> | 
+                <a href="gonglue.html">游戏攻略</a> | 
+                <a href="jiqiao.html">传奇技巧</a> | 
+                <a href="xinwen.html">游戏资讯</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

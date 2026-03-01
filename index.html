@@ -4,118 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO Meta Tags -->
-    <title>传奇sf_新开传奇_私服发布网 - 专业传奇私服发布平台</title>
-    <meta name="description" content="传奇sf发布网，提供最新新开传奇、热血传奇、传奇sf一条龙服务。收录全网最全的私服发布网信息，是玩家寻找传奇私服的首选平台。">
-    <meta name="keywords" content="传奇sf,新开传奇,私服发布网,热血传奇,传奇服务端,传奇下载,传奇私服装备,传奇sf开区,传奇一条龙,传奇新区">
-    <meta name="author" content="传奇sf发布网">
+    <!-- SEO Meta Tags - 自然优化不过度 -->
+    <title>传奇游戏攻略_传奇技巧分享_热血传奇玩家心得</title>
+    <meta name="description" content="为广大传奇玩家提供最新的游戏攻略、升级技巧、装备获取心得。分享传奇游戏中的实用技巧，帮助新手快速成长。">
+    <meta name="keywords" content="传奇攻略,传奇技巧,热血传奇攻略,传奇升级技巧,传奇装备获取,传奇玩家心得">
     <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="传奇sf_新开传奇_私服发布网">
-    <meta property="og:description" content="专业传奇私服发布平台 最新最全的私服信息">
+    <meta property="og:title" content="传奇游戏攻略_传奇技巧分享">
+    <meta property="og:description" content="传奇游戏玩家交流平台">
     <meta property="og:type" content="website">
     
-    <!-- Canonical -->
     <link rel="canonical" href="https://yoursite.com/">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚔️</text></svg>">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
     
     <style>
-        /* CSS Reset & Base */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
         :root {
-            --primary-color: #e74c3c;
-            --secondary-color: #c0392b;
+            --primary-color: #3498db;
+            --secondary-color: #2980b9;
             --dark-bg: #1a1a2e;
             --card-bg: #16213e;
             --text-light: #eee;
             --text-muted: #aaa;
             --accent-gold: #f1c40f;
-            --gradient-start: #e74c3c;
-            --gradient-end: #8e44ad;
+            --gradient-start: #3498db;
+            --gradient-end: #9b59b6;
         }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         
         body {
             font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
             background: linear-gradient(135deg, var(--dark-bg) 0%, #0f0f23 100%);
             color: var(--text-light);
             min-height: 100vh;
-            line-height: 1.6;
+            line-height: 1.7;
         }
         
-        /* Header */
         header {
             background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
-            padding: 1.5rem 0;
-            box-shadow: 0 4px 20px rgba(231, 76, 60, 0.3);
+            padding: 1.2rem 0;
+            box-shadow: 0 4px 20px rgba(52, 152, 219, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
         
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
         
-        .header-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
+        .header-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
         
-        .logo {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #fff;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
+        .logo { font-size: 1.8rem; font-weight: bold; color: #fff; display: flex; align-items: center; gap: 0.5rem; }
+        .logo-icon { font-size: 2rem; }
         
-        .logo-icon {
-            font-size: 2.5rem;
-        }
-        
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-            flex-wrap: wrap;
-        }
+        nav ul { display: flex; list-style: none; gap: 1.2rem; flex-wrap: wrap; }
         
         nav a {
             color: #fff;
             text-decoration: none;
             font-weight: 500;
-            transition: all 0.3s ease;
-            padding: 0.5rem 1rem;
+            padding: 0.4rem 0.8rem;
             border-radius: 5px;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
         }
         
-        nav a:hover {
-            background: rgba(255,255,255,0.2);
-        }
+        nav a:hover, nav a.active { background: rgba(255,255,255,0.2); }
         
-        /* Hero Section */
         .hero {
-            padding: 4rem 0;
+            padding: 3rem 0;
             text-align: center;
-            background: linear-gradient(180deg, transparent, rgba(0,0,0,0.3));
+            background: linear-gradient(180deg, transparent, rgba(0,0,0,0.2));
         }
         
         .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+            font-size: 2.2rem;
+            margin-bottom: 0.8rem;
             background: linear-gradient(90deg, var(--accent-gold), #fff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -123,372 +87,318 @@
         }
         
         .hero p {
-            font-size: 1.2rem;
             color: var(--text-muted);
             max-width: 600px;
-            margin: 0 auto 2rem;
+            margin: 0 auto;
+            font-size: 1rem;
         }
         
         .search-box {
             display: flex;
-            max-width: 600px;
-            margin: 0 auto;
+            max-width: 550px;
+            margin: 1.5rem auto 0;
             gap: 0.5rem;
         }
         
         .search-box input {
             flex: 1;
-            padding: 1rem;
+            padding: 0.8rem 1.2rem;
             border: none;
             border-radius: 50px;
-            font-size: 1rem;
+            font-size: 0.95rem;
             outline: none;
+            background: rgba(255,255,255,0.9);
         }
         
         .search-box button {
-            padding: 1rem 2rem;
+            padding: 0.8rem 1.8rem;
             background: var(--primary-color);
             color: #fff;
             border: none;
             border-radius: 50px;
             cursor: pointer;
-            font-size: 1rem;
+            font-size: 0.95rem;
             font-weight: bold;
             transition: all 0.3s ease;
         }
         
-        .search-box button:hover {
-            background: var(--secondary-color);
-            transform: scale(1.05);
-        }
+        .search-box button:hover { background: var(--secondary-color); }
         
-        /* Keywords Section */
-        .keywords-section {
-            padding: 3rem 0;
-        }
+        .page-content { padding: 2rem 0; }
         
         .section-title {
             text-align: center;
-            font-size: 2rem;
-            margin-bottom: 2rem;
+            font-size: 1.6rem;
+            margin-bottom: 1.8rem;
             position: relative;
         }
         
         .section-title::after {
             content: '';
             display: block;
-            width: 60px;
-            height: 4px;
+            width: 50px;
+            height: 3px;
             background: var(--primary-color);
             margin: 0.5rem auto;
             border-radius: 2px;
         }
         
-        .keywords-grid {
+        .article-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 1.5rem;
         }
         
-        .keyword-card {
+        .article-card {
             background: var(--card-bg);
             padding: 1.5rem;
-            border-radius: 12px;
-            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.08);
             transition: all 0.3s ease;
-            cursor: pointer;
         }
         
-        .keyword-card:hover {
-            transform: translateY(-5px);
+        .article-card:hover {
+            transform: translateY(-4px);
             border-color: var(--primary-color);
-            box-shadow: 0 10px 30px rgba(231, 76, 60, 0.2);
+            box-shadow: 0 8px 25px rgba(52, 152, 219, 0.15);
         }
         
-        .keyword-card h3 {
+        .article-card .category {
+            display: inline-block;
+            background: rgba(52, 152, 219, 0.2);
+            color: var(--primary-color);
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-bottom: 0.8rem;
+        }
+        
+        .article-card h3 {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+        
+        .article-card p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 0.8rem;
+        }
+        
+        .article-card .meta {
+            color: #777;
+            font-size: 0.8rem;
+        }
+        
+        .article-card .btn {
+            display: inline-block;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            transition: color 0.3s ease;
+        }
+        
+        .article-card .btn:hover { color: var(--accent-gold); }
+        
+        .tips-section {
+            padding: 2rem 0;
+            background: rgba(0,0,0,0.15);
+            margin: 2rem 0;
+        }
+        
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.2rem;
+        }
+        
+        .tip-card {
+            background: var(--card-bg);
+            padding: 1.2rem;
+            border-radius: 10px;
+            border-left: 3px solid var(--primary-color);
+        }
+        
+        .tip-card h4 {
             color: var(--accent-gold);
-            font-size: 1.3rem;
+            font-size: 1rem;
             margin-bottom: 0.5rem;
         }
         
-        .keyword-card p {
+        .tip-card p {
             color: var(--text-muted);
             font-size: 0.9rem;
         }
         
-        /* Server List */
-        .server-section {
-            padding: 3rem 0;
-        }
-        
-        .server-list {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-        
-        .server-item {
-            background: var(--card-bg);
-            padding: 1.5rem;
-            border-radius: 12px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border: 1px solid rgba(255,255,255,0.1);
-            transition: all 0.3s ease;
-        }
-        
-        .server-item:hover {
-            border-color: var(--primary-color);
-            transform: translateX(10px);
-        }
-        
-        .server-info h3 {
-            color: var(--primary-color);
-            font-size: 1.2rem;
-        }
-        
-        .server-info p {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
-        
-        .server-tag {
-            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
-            color: #fff;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: bold;
-        }
-        
-        /* Features */
-        .features-section {
-            padding: 3rem 0;
-            background: rgba(0,0,0,0.2);
-        }
-        
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-        }
-        
-        .feature-card {
-            text-align: center;
-            padding: 2rem;
-            background: var(--card-bg);
-            border-radius: 16px;
-            border: 1px solid rgba(255,255,255,0.1);
-        }
-        
-        .feature-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        
-        .feature-card h3 {
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-        }
-        
-        /* Footer */
         footer {
             background: #0a0a15;
-            padding: 2rem 0;
+            padding: 1.5rem 0;
             text-align: center;
-            margin-top: 3rem;
+            margin-top: 2rem;
         }
         
-        footer p {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
+        footer p { color: var(--text-muted); font-size: 0.85rem; }
+        footer a { color: var(--primary-color); text-decoration: none; }
         
-        footer a {
-            color: var(--primary-color);
-            text-decoration: none;
-        }
-        
-        /* Responsive */
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-            
-            nav ul {
-                gap: 1rem;
-            }
-            
-            .header-content {
-                flex-direction: column;
-                text-align: center;
-            }
-            
-            .search-box {
-                flex-direction: column;
-            }
-            
-            .server-item {
-                flex-direction: column;
-                text-align: center;
-                gap: 1rem;
-            }
+            .hero h1 { font-size: 1.6rem; }
+            .header-content { flex-direction: column; text-align: center; }
+            .search-box { flex-direction: column; }
         }
         
-        /* Animations */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        .keyword-card, .server-item, .feature-card {
-            animation: fadeInUp 0.6s ease forwards;
-        }
-        
-        .keyword-card:nth-child(1) { animation-delay: 0.1s; }
-        .keyword-card:nth-child(2) { animation-delay: 0.2s; }
-        .keyword-card:nth-child(3) { animation-delay: 0.3s; }
-        .keyword-card:nth-child(4) { animation-delay: 0.4s; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+        .article-card, .tip-card { animation: fadeInUp 0.5s ease forwards; }
     </style>
 </head>
 <body>
-    <!-- Header -->
     <header>
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <span class="logo-icon">⚔️</span>
-                    <span>传奇sf发布网</span>
+                    <span class="logo-icon">🎮</span>
+                    <span>传奇玩家社区</span>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">首页</a></li>
-                        <li><a href="chuanqisf.html">传奇sf</a></li>
-                        <li><a href="xinkaichuanqi.html">新开传奇</a></li>
-                        <li><a href="sifufabuwang.html">私服发布网</a></li>
+                        <li><a href="index.html" class="active">首页</a></li>
+                        <li><a href="gonglue.html">游戏攻略</a></li>
+                        <li><a href="jiqiao.html">传奇技巧</a></li>
+                        <li><a href="xinwen.html">游戏资讯</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1>找传奇sf 就来传奇sf发布网</h1>
-            <p>汇聚全网最全的新开传奇、私服发布网信息，为玩家提供最新、最热的传奇sf游戏体验</p>
+            <h1>传奇游戏攻略社区</h1>
+            <p>分享游戏心得，交流升级技巧，让游戏更轻松</p>
             
             <div class="search-box">
-                <input type="text" placeholder="搜索传奇sf、新开传奇、私服发布网...">
+                <input type="text" placeholder="搜索游戏攻略、技巧分享...">
                 <button>搜索</button>
             </div>
         </div>
     </section>
     
-    <!-- Keywords Section -->
-    <section class="keywords-section">
+    <section class="page-content">
         <div class="container">
-            <h2 class="section-title">热门关键字</h2>
-            <div class="keywords-grid">
-                <div class="keyword-card">
-                    <h3>传奇sf</h3>
-                    <p>最新开的热血传奇sf版本，经典1.76复古玩法，原汁原味的传奇体验</p>
+            <h2 class="section-title">热门攻略</h2>
+            
+            <div class="article-grid">
+                <div class="article-card">
+                    <span class="category">升级攻略</span>
+                    <h3>新手玩家快速升级路线推荐</h3>
+                    <p>为新手玩家整理的升级路线，助你快速提升等级</p>
+                    <div class="meta">更新时间：2024-01-15</div>
+                    <a href="#" class="btn">阅读全文 →</a>
                 </div>
-                <div class="keyword-card">
-                    <h3>新开传奇</h3>
-                    <p>2024年新开传奇新区，变态版、轻变版、中变版应有尽有</p>
+                
+                <div class="article-card">
+                    <span class="category">装备获取</span>
+                    <h3>各等级段装备获取途径大全</h3>
+                    <p>详细讲解不同等级段玩家如何获取优质装备</p>
+                    <div class="meta">更新时间：2024-01-14</div>
+                    <a href="#" class="btn">阅读全文 →</a>
                 </div>
-                <div class="keyword-card">
-                    <h3>私服发布网</h3>
-                    <p>一站式传奇私服装备交易、sf开区信息发布平台</p>
+                
+                <div class="article-card">
+                    <span class="category">PK技巧</span>
+                    <h3>职业对战必胜技巧分享</h3>
+                    <p>三大职业PK对战思路，助你成为PK高手</p>
+                    <div class="meta">更新时间：2024-01-13</div>
+                    <a href="#" class="btn">阅读全文 →</a>
                 </div>
-                <div class="keyword-card">
-                    <h3>传奇服务端</h3>
-                    <p>专业传奇一条龙服务端架设，GM必备配置方案</p>
+                
+                <div class="article-card">
+                    <span class="category">任务攻略</span>
+                    <h3>主线任务与支线任务优先级</h3>
+                    <p>合理安排任务顺序，经验收益最大化</p>
+                    <div class="meta">更新时间：2024-01-12</div>
+                    <a href="#" class="btn">阅读全文 →</a>
+                </div>
+                
+                <div class="article-card">
+                    <span class="category">副本攻略</span>
+                    <h3>经典副本通关技巧详解</h3>
+                    <p>各大副本机制分析与通关要点</p>
+                    <div class="meta">更新时间：2024-01-11</div>
+                    <a href="#" class="btn">阅读全文 →</a>
+                </div>
+                
+                <div class="article-card">
+                    <span class="category">经济系统</span>
+                    <h3>游戏金币获取与理财技巧</h3>
+                    <p>平民玩家也能轻松致富的实用方法</p>
+                    <div class="meta">更新时间：2024-01-10</div>
+                    <a href="#" class="btn">阅读全文 →</a>
                 </div>
             </div>
         </div>
     </section>
     
-    <!-- Server List -->
-    <section class="server-section">
+    <section class="tips-section">
         <div class="container">
-            <h2 class="section-title">今日新开传奇</h2>
-            <div class="server-list">
-                <div class="server-item">
-                    <div class="server-info">
-                        <h3>🔥 热血传奇1.76复古版</h3>
-                        <p>经典重现 | 散人天堂 | 装备保值 | 无合成</p>
-                    </div>
-                    <span class="server-tag">新开</span>
+            <h2 class="section-title">实用技巧</h2>
+            
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h4>💡 快捷键使用</h4>
+                    <p>熟练使用游戏内快捷键可以大幅提升操作效率</p>
                 </div>
-                <div class="server-item">
-                    <div class="server-info">
-                        <h3>⚡ 变态传奇sf版</h3>
-                        <p>满级VIP | 刀刀切割 | 无限元宝 | 成人气服</p>
-                    </div>
-                    <span class="server-tag">热门</span>
+                
+                <div class="tip-card">
+                    <h4>💡 自动拾取设置</h4>
+                    <p>合理设置自动拾取，再也不错过任何好东西</p>
                 </div>
-                <div class="server-item">
-                    <div class="server-info">
-                        <h3>🎮 轻变传奇新服</h3>
-                        <p>创新玩法 | 公平竞技 | 散人逆袭 | 真传奇</p>
-                    </div>
-                    <span class="server-tag">推荐</span>
+                
+                <div class="tip-card">
+                    <h4>💡 交易防骗指南</h4>
+                    <p>常见的几种交易骗局与防范方法</p>
                 </div>
-                <div class="server-item">
-                    <div class="server-info">
-                        <h3>💎 中变版传奇sf</h3>
-                        <p>平衡职业 | 经典地图 | 稳定长久 | 长久服</p>
-                    </div>
-                    <span class="server-tag">稳定</span>
+                
+                <div class="tip-card">
+                    <h4>💡 背包整理技巧</h4>
+                    <p>整理背包的小技巧，让游戏体验更顺畅</p>
                 </div>
             </div>
         </div>
     </section>
     
-    <!-- Features -->
-    <section class="features-section">
+    <section class="page-content">
         <div class="container">
-            <h2 class="section-title">为什么选择我们</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">🎯</div>
-                    <h3>精准SEO优化</h3>
-                    <p>专业的传奇sf关键字优化，让您的私服发布网排名更靠前</p>
+            <h2 class="section-title">近期更新</h2>
+            
+            <div class="article-grid">
+                <div class="article-card">
+                    <span class="category">新服资讯</span>
+                    <h3>近期新开服务器汇总</h3>
+                    <p>汇总近期开服信息，方便玩家选择</p>
+                    <div class="meta">更新时间：2024-01-15</div>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>快速收录</h3>
-                    <p>新开传奇信息快速提交，24小时内被百度、Google收录</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🛡️</div>
-                    <h3>权威保障</h3>
-                    <p>正规传奇sf发布网平台，玩家认可度高，流量精准</p>
+                
+                <div class="article-card">
+                    <span class="category">版本前瞻</span>
+                    <h3>新版本内容抢先看</h3>
+                    <p>即将到来的版本更新内容预告</p>
+                    <div class="meta">更新时间：2024-01-14</div>
                 </div>
             </div>
         </div>
     </section>
     
-    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 传奇sf发布网 | 新开传奇 | 私服发布网 | 
-                <a href="#">传奇服务端</a> | 
-                <a href="#">传奇sf</a> | 
-                <a href="#">网站地图</a>
+            <p>&copy; 2024 传奇玩家社区 | 
+                <a href="index.html">首页</a> | 
+                <a href="gonglue.html">游戏攻略</a> | 
+                <a href="jiqiao.html">传奇技巧</a> | 
+                <a href="xinwen.html">游戏资讯</a>
             </p>
-            <p style="margin-top: 0.5rem; font-size: 0.8rem;">
-                关键词：传奇sf、新开传奇、私服发布网、热血传奇、传奇服务端、传奇下载、传奇私服装备、传奇sf开区、传奇一条龙、传奇新区
-            </p>
+            <p style="margin-top:0.5rem;font-size:0.8rem;">分享游戏乐趣、交流游戏心得</p>
         </div>
     </footer>
 </body>
