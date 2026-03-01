@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>玩家社区_游戏交流_经验分享</title>
+    <meta name="description" content="玩家交流社区，分享游戏经验、交流心得、结识志同道合的游戏伙伴。">
+    <meta name="keywords" content="玩家社区,游戏交流,经验分享,游戏讨论,玩家心得">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="canonical" href="https://yoursite.com/shequ.html">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👥</text></svg>">
+    
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --dark-bg: #1a1a2e;
+            --card-bg: #16213e;
+            --text-light: #eee;
+            --text-muted: #aaa;
+            --accent-gold: #f1c40f;
+            --gradient-start: #3498db;
+            --gradient-end: #9b59b6;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, var(--dark-bg) 0%, #0f0f23 100%);
+            color: var(--text-light);
+            min-height: 100vh;
+            line-height: 1.7;
+        }
+        
+        header {
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+            padding: 1.2rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.8rem; font-weight: bold; color: #fff; display: flex; align-items: center; gap: 0.5rem; }
+        
+        nav ul { display: flex; list-style: none; gap: 1.2rem; }
+        nav a { color: #fff; text-decoration: none; padding: 0.4rem 0.8rem; border-radius: 5px; }
+        nav a:hover, nav a.active { background: rgba(255,255,255,0.2); }
+        
+        .hero { padding: 2.5rem 0; text-align: center; }
+        .hero h1 { font-size: 2rem; background: linear-gradient(90deg, var(--accent-gold), #fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        
+        .page-content { padding: 2rem 0; }
+        
+        .section-title { text-align: center; font-size: 1.5rem; margin-bottom: 1.8rem; }
+        .section-title::after { content: ''; display: block; width: 50px; height: 3px; background: var(--primary-color); margin: 0.5rem auto; border-radius: 2px; }
+        
+        .forum-list { display: flex; flex-direction: column; gap: 1rem; max-width: 900px; margin: 0 auto; }
+        
+        .forum-item { background: var(--card-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; }
+        .forum-item:hover { border-color: var(--primary-color); transform: translateX(5px); }
+        
+        .forum-item .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; }
+        .forum-item h3 { color: var(--text-light); font-size: 1.1rem; }
+        .forum-item .badge { background: rgba(52, 152, 219, 0.2); color: var(--primary-color); padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.75rem; }
+        .forum-item p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.8rem; }
+        .forum-item .meta { color: #666; font-size: 0.8rem; display: flex; gap: 1rem; }
+        
+        .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .stat-card { background: var(--card-bg); padding: 1.5rem; border-radius: 12px; text-align: center; }
+        .stat-card .number { font-size: 2rem; color: var(--accent-gold); font-weight: bold; }
+        .stat-card .label { color: var(--text-muted); font-size: 0.9rem; }
+        
+        footer { background: #0a0a15; padding: 1.5rem 0; text-align: center; margin-top: 2rem; }
+        footer p { color: var(--text-muted); font-size: 0.85rem; }
+        footer a { color: var(--primary-color); text-decoration: none; }
+        
+        @media (max-width: 768px) { .header-content { flex-direction: column; text-align: center; } .stats { grid-template-columns: repeat(2, 1fr); } }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+        .forum-item { animation: fadeInUp 0.5s ease forwards; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">🎮 <span>传奇玩家社区</span></div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="gonglue.html">游戏攻略</a></li>
+                        <li><a href="jiqiao.html">传奇技巧</a></li>
+                        <li><a href="xinwen.html">游戏资讯</a></li>
+                        <li><a href="shipin.html">游戏视频</a></li>
+                        <li><a href="shequ.html" class="active">玩家社区</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container"><h1>👥 玩家社区</h1></div>
+    </section>
+    
+    <section class="page-content">
+        <div class="container">
+            <div class="stats">
+                <div class="stat-card"><div class="number">12,580</div><div class="label">注册玩家</div></div>
+                <div class="stat-card"><div class="number">3,240</div><div class="label">今日活跃</div></div>
+                <div class="stat-card"><div class="number">8,520</div><div class="label">帖子总数</div></div>
+                <div class="stat-card"><div class="number">156</div><div class="label">在线人数</div></div>
+            </div>
+            
+            <h2 class="section-title">热门话题</h2>
+            
+            <div class="forum-list">
+                <div class="forum-item">
+                    <div class="header">
+                        <h3>新手求带，有一起玩的朋友吗？</h3>
+                        <span class="badge">新手求助</span>
+                    </div>
+                    <p>刚玩这个游戏不久，求大佬带一带，一起升级打副本</p>
+                    <div class="meta"><span>👤 玩家A</span><span>回复 28</span><span>浏览 156</span></div>
+                </div>
+                
+                <div class="forum-item">
+                    <div class="header">
+                        <h3>关于装备强化的心得分享</h3>
+                        <span class="badge">经验分享</span>
+                    </div>
+                    <p>玩了这么久，总结了一套装备强化成功率较高的方法</p>
+                    <div class="meta"><span>👤 强化大师</span><span>回复 56</span><span>浏览 320</span></div>
+                </div>
+                
+                <div class="forum-item">
+                    <div class="header">
+                        <h3>各职业PK强弱分析</h3>
+                        <span class="badge">职业讨论</span>
+                    </div>
+                    <p>分析一下当前版本各职业在PK中的表现和克制关系</p>
+                    <div class="meta"><span>👤 PK达人</span><span>回复 89</span><span>浏览 512</span></div>
+                </div>
+                
+                <div class="forum-item">
+                    <div class="header">
+                        <h3>找一个固定队伍，长期一起玩</h3>
+                        <span class="badge">组队招募</span>
+                    </div>
+                    <p>本人战士，找一个固定队伍一起打副本、刷boss</p>
+                    <div class="meta"><span>👤 战士玩家</span><span>回复 34</span><span>浏览 198</span></div>
+                </div>
+                
+                <div class="forum-item">
+                    <div class="header">
+                        <h3>游戏BUG反馈与建议</h3>
+                        <span class="badge">建议反馈</span>
+                    </div>
+                    <p>提出一些游戏优化建议，希望官方能看到</p>
+                    <div class="meta"><span>👤 热心玩家</span><span>回复 45</span><span>浏览 267</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 传奇玩家社区 | 
+                <a href="index.html">首页</a> | 
+                <a href="gonglue.html">游戏攻略</a> | 
+                <a href="jiqiao.html">传奇技巧</a> | 
+                <a href="xinwen.html">游戏资讯</a> |
+                <a href="shipin.html">游戏视频</a> |
+                <a href="shequ.html">玩家社区</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

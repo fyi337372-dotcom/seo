@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>游戏视频_精彩游戏实况_玩家解说</title>
+    <meta name="description" content="汇集各类游戏精彩视频，包括实况解说、攻略视频、PK精彩片段等，欢迎观看分享。">
+    <meta name="keywords" content="游戏视频,游戏实况,玩家解说,精彩PK,攻略视频">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="canonical" href="https://yoursite.com/shipin.html">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+    
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --dark-bg: #1a1a2e;
+            --card-bg: #16213e;
+            --text-light: #eee;
+            --text-muted: #aaa;
+            --accent-gold: #f1c40f;
+            --gradient-start: #3498db;
+            --gradient-end: #9b59b6;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, var(--dark-bg) 0%, #0f0f23 100%);
+            color: var(--text-light);
+            min-height: 100vh;
+            line-height: 1.7;
+        }
+        
+        header {
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+            padding: 1.2rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.8rem; font-weight: bold; color: #fff; display: flex; align-items: center; gap: 0.5rem; }
+        
+        nav ul { display: flex; list-style: none; gap: 1.2rem; }
+        nav a { color: #fff; text-decoration: none; padding: 0.4rem 0.8rem; border-radius: 5px; }
+        nav a:hover, nav a.active { background: rgba(255,255,255,0.2); }
+        
+        .hero { padding: 2.5rem 0; text-align: center; }
+        .hero h1 { font-size: 2rem; background: linear-gradient(90deg, var(--accent-gold), #fff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        
+        .page-content { padding: 2rem 0; }
+        
+        .section-title { text-align: center; font-size: 1.5rem; margin-bottom: 1.8rem; }
+        .section-title::after { content: ''; display: block; width: 50px; height: 3px; background: var(--primary-color); margin: 0.5rem auto; border-radius: 2px; }
+        
+        .video-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        
+        .video-card { background: var(--card-bg); border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); transition: all 0.3s ease; }
+        .video-card:hover { transform: translateY(-4px); border-color: var(--primary-color); }
+        
+        .video-cover { height: 180px; background: linear-gradient(135deg, #2c3e50, #34495e); display: flex; align-items: center; justify-content: center; position: relative; }
+        .video-cover .play-btn { font-size: 3rem; opacity: 0.8; }
+        .video-cover .duration { position: absolute; bottom: 10px; right: 10px; background: rgba(0,0,0,0.7); padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.8rem; }
+        
+        .video-info { padding: 1.2rem; }
+        .video-info h3 { font-size: 1rem; margin-bottom: 0.5rem; color: var(--text-light); }
+        .video-info .meta { color: var(--text-muted); font-size: 0.85rem; display: flex; justify-content: space-between; }
+        
+        footer { background: #0a0a15; padding: 1.5rem 0; text-align: center; margin-top: 2rem; }
+        footer p { color: var(--text-muted); font-size: 0.85rem; }
+        footer a { color: var(--primary-color); text-decoration: none; }
+        
+        @media (max-width: 768px) { .header-content { flex-direction: column; text-align: center; } }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+        .video-card { animation: fadeInUp 0.5s ease forwards; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">🎮 <span>传奇玩家社区</span></div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="gonglue.html">游戏攻略</a></li>
+                        <li><a href="jiqiao.html">传奇技巧</a></li>
+                        <li><a href="xinwen.html">游戏资讯</a></li>
+                        <li><a href="shipin.html" class="active">游戏视频</a></li>
+                        <li><a href="shequ.html">玩家社区</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container"><h1>🎬 游戏视频</h1></div>
+    </section>
+    
+    <section class="page-content">
+        <div class="container">
+            <h2 class="section-title">精彩视频</h2>
+            
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-cover"><span class="play-btn">▶</span><span class="duration">15:30</span></div>
+                    <div class="video-info">
+                        <h3>新手入门必看攻略视频</h3>
+                        <div class="meta"><span>播放 1.2万</span><span>2024-01-15</span></div>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-cover"><span class="play-btn">▶</span><span class="duration">08:45</span></div>
+                    <div class="video-info">
+                        <h3>PK精彩片段合集</h3>
+                        <div class="meta"><span>播放 2.3万</span><span>2024-01-14</span></div>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-cover"><span class="play-btn">▶</span><span class="duration">22:10</span></div>
+                    <div class="video-info">
+                        <h3>副本通关全程实录</h3>
+                        <div class="meta"><span>播放 8560</span><span>2024-01-13</span></div>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-cover"><span class="play-btn">▶</span><span class="duration">12:20</span></div>
+                    <div class="video-info">
+                        <h3>装备强化技巧演示</h3>
+                        <div class="meta"><span>播放 1.5万</span><span>2024-01-12</span></div>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-cover"><span class="play-btn">▶</span><span class="duration">18:00</span></div>
+                    <div class="video-info">
+                        <h3>职业加点详细讲解</h3>
+                        <div class="meta"><span>播放 9800</span><span>2024-01-11</span></div>
+                    </div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-cover"><span class="play-btn">▶</span><span class="duration">25:30</span></div>
+                    <div class="video-info">
+                        <h3>大型公会战实况</h3>
+                        <div class="meta"><span>播放 3.1万</span><span>2024-01-10</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 传奇玩家社区 | 
+                <a href="index.html">首页</a> | 
+                <a href="gonglue.html">游戏攻略</a> | 
+                <a href="jiqiao.html">传奇技巧</a> | 
+                <a href="xinwen.html">游戏资讯</a> |
+                <a href="shipin.html">游戏视频</a> |
+                <a href="shequ.html">玩家社区</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
