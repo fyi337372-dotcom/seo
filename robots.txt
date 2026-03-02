@@ -19,4 +19,4 @@ Allow: /
 User-agent: Yahoo! Slurp
 Allow: /
 
-Sitemap: https://www.yxb4.com/sitemap.xml
+Sitemap: https://www.hs365.net/sitemap.xml
