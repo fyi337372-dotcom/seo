@@ -1,252 +1,342 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.hs365.net/</loc>
+    <loc>https://hs365.net/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/index.html</loc>
+    <loc>https://hs365.net/index.html</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/gonglue.html</loc>
+    <loc>https://hs365.net/gonglue.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/jiqiao.html</loc>
+    <loc>https://hs365.net/jiqiao.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/xinwen.html</loc>
+    <loc>https://hs365.net/xinwen.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/shipin.html</loc>
+    <loc>https://hs365.net/shipin.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/shequ.html</loc>
+    <loc>https://hs365.net/shequ.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/shengji.html</loc>
+    <loc>https://hs365.net/article/shengji.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/qianghua.html</loc>
+    <loc>https://hs365.net/article/qianghua.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/pk.html</loc>
+    <loc>https://hs365.net/article/pk.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/fuben.html</loc>
+    <loc>https://hs365.net/article/fuben.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/jinbi.html</loc>
+    <loc>https://hs365.net/article/jinbi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/renwu.html</loc>
+    <loc>https://hs365.net/article/renwu.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/zanshi.html</loc>
+    <loc>https://hs365.net/article/zanshi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/fashi.html</loc>
+    <loc>https://hs365.net/article/fashi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/180heji.html</loc>
+    <loc>https://hs365.net/article/180heji.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/fuguichuanqi.html</loc>
+    <loc>https://hs365.net/article/fuguichuanqi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/shouchuanqi.html</loc>
+    <loc>https://hs365.net/article/shouchuanqi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/boss.html</loc>
+    <loc>https://hs365.net/article/boss.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/qianghua2.html</loc>
+    <loc>https://hs365.net/article/qianghua2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/fangpian.html</loc>
+    <loc>https://hs365.net/article/fangpian.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/gonghui.html</loc>
+    <loc>https://hs365.net/article/gonghui.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/baoshi.html</loc>
+    <loc>https://hs365.net/article/baoshi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/zuoqi.html</loc>
+    <loc>https://hs365.net/article/zuoqi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/chibang.html</loc>
+    <loc>https://hs365.net/article/chibang.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/185qingbian.html</loc>
+    <loc>https://hs365.net/article/185qingbian.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/dengluqi.html</loc>
+    <loc>https://hs365.net/article/dengluqi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/fuwuqi.html</loc>
+    <loc>https://hs365.net/article/fuwuqi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/daoshi.html</loc>
+    <loc>https://hs365.net/article/daoshi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/kuaisujs.html</loc>
+    <loc>https://hs365.net/article/kuaisujs.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/chuanqifabuwang.html</loc>
+    <loc>https://hs365.net/article/chuanqifabuwang.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/mingwen.html</loc>
+    <loc>https://hs365.net/article/mingwen.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/shabake.html</loc>
+    <loc>https://hs365.net/article/shabake.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/jiaoyihang.html</loc>
+    <loc>https://hs365.net/article/jiaoyihang.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/meirifuben.html</loc>
+    <loc>https://hs365.net/article/meirifuben.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/chongwu.html</loc>
+    <loc>https://hs365.net/article/chongwu.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/banghui.html</loc>
+    <loc>https://hs365.net/article/banghui.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/jinbijiaoyi.html</loc>
+    <loc>https://hs365.net/article/jinbijiaoyi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/zhuangbeijiaoyi.html</loc>
+    <loc>https://hs365.net/article/zhuangbeijiaoyi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/service-guide.html</loc>
+    <loc>https://hs365.net/article/service-guide.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/kaifu-chengben.html</loc>
+    <loc>https://hs365.net/article/kaifu-chengben.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/waigua-fanghu.html</loc>
+    <loc>https://hs365.net/article/waigua-fanghu.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/fuwuqi-jinbuqu.html</loc>
+    <loc>https://hs365.net/article/fuwuqi-jinbuqu.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/zhuangbei-qianghua.html</loc>
+    <loc>https://hs365.net/article/zhuangbei-qianghua.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/jinbi-huoqu.html</loc>
+    <loc>https://hs365.net/article/jinbi-huoqu.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/zhuangbei-chuchu.html</loc>
+    <loc>https://hs365.net/article/zhuangbei-chuchu.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/xinshou-jinru.html</loc>
+    <loc>https://hs365.net/article/xinshou-jinru.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/qianghua-shibai.html</loc>
+    <loc>https://hs365.net/article/qianghua-shibai.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/yiqiang-pk.html</loc>
+    <loc>https://hs365.net/article/yiqiang-pk.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.hs365.net/article/fuben-boss.html</loc>
+    <loc>https://hs365.net/article/fuben-boss.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/176chuanqi.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/daoshi-jineng.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/fashi-shengji.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/zhanshi-shengji.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/bianTai.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/diannaoban.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/meiri-renwu.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/sifuKaifu.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/dajin-zuanshi.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/pk-zouwei.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/guaji-dajin-didian.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/jiaoyihang-dingjia.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/shabake-chengzhan-zhihui.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/daoshi-baobei-peiyang.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/fashi-pk-zouwei.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/zhanshi-pk-jiqiao.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/fugu-jinbi-huoqu.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hs365.net/article/ditu-guaiwu-fenbu.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
