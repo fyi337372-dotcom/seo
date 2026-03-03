@@ -369,11 +369,60 @@ footer a { color: var(--primary-color); text-decoration: none; }
 
 .news-card a.btn:hover { transform: scale(1.05); }
 
-/* 响应式 */
+/* 响应式 - 手机端适配 */
 @media (max-width: 768px) {
+    /* 头部 */
     .hero h1 { font-size: 1.6rem; }
     .header-content { flex-direction: column; text-align: center; }
-    .search-box { flex-direction: column; }
+    .search-box { flex-direction: column; width: 100%; }
+    .search-box input { width: 100%; }
+    
+    /* 导航 */
+    nav ul { 
+        justify-content: center; 
+        gap: 0.5rem;
+        font-size: 0.8rem;
+    }
+    nav a { padding: 0.3rem 0.5rem; font-size: 0.85rem; }
+    
+    /* 卡片 */
+    .article-grid { grid-template-columns: 1fr; }
+    .article-card { padding: 1rem; }
+    .article-card h3 { font-size: 1rem; }
+    
+    /* 列表 */
+    .article-list { padding: 0.5rem; }
+    .article-item { flex-direction: column; gap: 0.5rem; }
+    .article-item .content { padding-right: 0; }
+    
+    /* 页面标题 */
+    h1 { font-size: 1.4rem !important; }
+    h2 { font-size: 1.2rem; }
+    h3 { font-size: 1rem; }
+    
+    /* 间距 */
+    .page-content { padding: 1rem 0.5rem; }
+    .container { padding: 0 10px; }
+    
+    /* 表格 */
+    table { font-size: 0.85rem; }
+    th, td { padding: 0.5rem; }
+    
+    /* 页脚 */
+    footer { padding: 1rem 0.5rem; text-align: center; }
+    footer p { font-size: 0.8rem; }
+}
+
+/* 更小屏幕 */
+@media (max-width: 480px) {
+    .logo { font-size: 1.4rem; }
+    .logo-icon { font-size: 1.6rem; }
+    nav ul { gap: 0.3rem; }
+    nav a { font-size: 0.75rem; padding: 0.2rem 0.4rem; }
+    .hero p { font-size: 0.9rem; }
+    .section-title { font-size: 1.1rem; }
+    .category { font-size: 0.7rem; padding: 0.15rem 0.4rem; }
+    .btn { padding: 0.4rem 0.8rem; font-size: 0.8rem; }
 }
 
 /* 动画 */
