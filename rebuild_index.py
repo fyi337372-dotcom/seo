@@ -14,7 +14,6 @@ for f in os.listdir('article'):
             match = re.search(r'<title>(.*?)</title>', content)
             title = match.group(1) if match else f.replace('.html', '')
             
-            # Skip duplicates by title
             if title in seen_titles:
                 continue
             seen_titles.add(title)
@@ -31,29 +30,35 @@ for f in os.listdir('article'):
                 'category': category
             })
 
-# Sort by date descending
 articles.sort(key=lambda x: x['date'], reverse=True)
-
-# Take latest 30
 latest = articles[:30]
 
-# Read index.html
+print(f"Found {len(articles)} articles, keeping {len(latest)}")
+
 with open('index.html', 'r', encoding='utf-8') as f:
     c = f.read()
 
-# Fix garbled text
-c = c.replace('传奇技?</a>', '传奇技巧</a>')
-c = c.replace('游戏技?</a>', '游戏技巧</a>')
+# Find FIRST article-grid and FIRST tips-section
+grid_match = re.search(r'<div class="article-grid"', c)
+section_match = re.search(r'<section class="tips-section">', c)
 
-# Find article grid section
-gs = c.find('<div class="article-grid">')
-ts = c.find('<section class="tips-section">')
-
-if gs > 0 and ts > 0:
-    before = c[:gs + 25]
-    after = c[ts:]
+if grid_match and section_match:
+    grid_pos = grid_match.start()
+    section_pos = section_match.start()
     
-    # Build new article cards
+    # Get content before the first article-grid
+    before = c[:grid_pos]
+    
+    # Get the first article-grid tag itself
+    grid_tag = c[grid_pos:grid_match.end()]
+    
+    # Get content between first grid and first tips-section (the old cards - to be replaced)
+    old_cards_section = c[grid_match.end():section_pos]
+    
+    # Get content from tips-section to end
+    after = c[section_pos:]
+    
+    # Build new cards
     new_cards = ''
     for a in latest:
         new_cards += f'''
@@ -66,9 +71,13 @@ if gs > 0 and ts > 0:
                 </div>
 '''
     
-    c = before + new_cards + after
-
-with open('index.html', 'w', encoding='utf-8') as f:
-    f.write(c)
-
-print(f'Done! Kept {len(latest)} latest articles, removed duplicates.')
+    # Reconstruct
+    new_content = before + grid_tag + new_cards + after
+    
+    with open('index.html', 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    
+    card_count = new_content.count('<div class="article-card">')
+    print(f"Done! Index has {card_count} cards")
+else:
+    print("ERROR: Could not find patterns")
